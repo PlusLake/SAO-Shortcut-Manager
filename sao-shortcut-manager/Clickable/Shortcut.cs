@@ -252,6 +252,7 @@ namespace sao_shortcut_manager.Clickables {
         }
 
         public static void init(List<Clickable> list, Func<bool> isEditMode, Action turnOffKeyboardMode, Action renderMainWindow) {
+            Directory.CreateDirectory(PATH);
             Shortcut.isEditMode = isEditMode;
             Shortcut.turnOffKeyboardMode = turnOffKeyboardMode;
             Shortcut.renderMainWindow = renderMainWindow;
@@ -260,7 +261,6 @@ namespace sao_shortcut_manager.Clickables {
                     shortcuts.Add(new Shortcut(list, x, y));
             loadReplaceIcons();
             Func<int, int, Shortcut> get = (x, y) => shortcuts[y * COL + x];
-            Directory.CreateDirectory(PATH);
             Func<string, bool> isLink = path => Strings.Right(path, 3) == "lnk";
             Func<string, bool, bool> isValidFilename = (path, mode) => REGEX.IsMatch(Path.GetFileName(path)) == mode;
             new List<string>(Directory.GetFiles(PATH))

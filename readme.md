@@ -1,9 +1,9 @@
 # SAO Shortcut Manager
 
 This software provides a SAO-like simple shortcut launcher.  
-For those who don't know SAO (Sword Art Online, ソード・アート・オンライン), go check the Wikipedia below:  
+For people who don't know SAO (Sword Art Online, ソード・アート・オンライン), go check the Wikipedia below:  
 
-https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3)
+https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%BB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3
 
 ## Screenshots and Manuals
 
@@ -33,7 +33,7 @@ And UI is actually Windows Forms. (Nothing special)
 ## System requiements
 
 TBD.  
-* Only confirmed in windows7 currently. *
+*Only confirmed in windows7 currently.*
 
 ## Remarks
 
