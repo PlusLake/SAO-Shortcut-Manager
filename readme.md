@@ -7,7 +7,14 @@ https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%83%89%E3%82%A2%E3%83%BC%E3%8
 
 ## Screenshots and Manuals
 
-TBD.
+![](/docs/gif.gif)
+
+- It generates a directory called "shortcuts" when it does not exists.
+- Put *.lnk files into the shortcuts directory and restart the software.
+- Press Ctrl + F1 to toggle edit mode.
+  - You can use left click to rearrange items.
+  - You can use right click to edit the icon. (PNG only)
+- All status/custom-icons is saved in the shortcuts directory.
 
 ## How does it work?
 
@@ -32,7 +39,8 @@ And UI is actually Windows Forms. (Nothing special)
 
 ## System requiements
 
-TBD.  
+.NET Framework 4.7.2
+
 *Only confirmed in windows7 currently.*
 
 ## Remarks

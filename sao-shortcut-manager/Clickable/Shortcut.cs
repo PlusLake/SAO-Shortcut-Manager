@@ -298,10 +298,9 @@ namespace sao_shortcut_manager.Clickables {
                         return;
                     Tuple<Bitmap, string> shortcutInfo = extractIcon(path);
                     if (shortcutInfo.Item1 != null) {
-                        rename(path, empty.x, empty.y);
                         empty.icon = shortcutInfo.Item1;
                         empty.executablePath = shortcutInfo.Item2;
-                        empty.shortcutPath = path;
+                        empty.shortcutPath = rename(path, empty.x, empty.y);
                     } else {
                         // could not extract icon. should be logged to somewhere.
                     }
